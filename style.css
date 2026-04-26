@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+.hero {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.hero p{
+    margin: 10px 0;
+    color: #aaa;
+}
+
+.hero button{
+    padding: 10px 20px;
+    background: #d41010;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+section{
+    padding: 50px;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skilltext{
+    margin-top: 25px;
+}
+
+.skill-box {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.box {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 42%;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    position: absolute;
+    align-items: center;
+}
+
+.box a{
+    color: white;
+    text-decoration: none;
+}
+
+.box a:hover{
+    color: #d41010;
+}
+
+.academics{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#academicstext{
+    margin-top: 25px;
+}
+
+.aca_box {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+.contact {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.contact p, h2{
+    padding: 7px;
+}
+
+
+footer {
+    background: #111;
+    padding: 20px;
+}
+
+footer a {
+    padding-right:20px ;
+    padding-top: 20px;
+    margin: 10px 10px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d41010;
+}
+
+footer p {
+    padding-right:20px ;
+    margin: 10px 0px;
+    color: #bbb;
+    text-decoration: none;
+}
